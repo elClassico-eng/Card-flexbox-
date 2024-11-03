@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #000;
+    --main-text: #6c727f;
+    --card-bg: #d9d9d9;
+    --section-bg: #f8fafc;
+}
+
+html {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--section-bg);
+}
+
+.card__section {
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    max-width: fit-content;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 3rem;
+}
